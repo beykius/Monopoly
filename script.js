@@ -293,7 +293,7 @@ const playerOneCards = document.querySelector('.player-one-cards');
 const playerTwoCards = document.querySelector('.player-two-cards');
 const buttonHouse = document.querySelectorAll('.button-81');
 let playerOneMoney = 1500;
-let playerTwoMoney = 5000;
+let playerTwoMoney = 1500;
 let playerOneOwnedCards = [];
 let playerTwoOwnedCards = [];
 const cardsWithIndex = cards.map((card, index) => (Object.assign(Object.assign({}, card), { index })));

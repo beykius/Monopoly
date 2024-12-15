@@ -308,7 +308,7 @@ const playerOneCards = document.querySelector('.player-one-cards') as HTMLDivEle
 const playerTwoCards = document.querySelector('.player-two-cards') as HTMLDivElement;
 const buttonHouse = document.querySelectorAll('.button-81') as NodeListOf<HTMLButtonElement>;
 let playerOneMoney: number = 1500;
-let playerTwoMoney: number = 5000;
+let playerTwoMoney: number = 1500;
 let playerOneOwnedCards:any[] = [];
 let playerTwoOwnedCards:any[] = [];
 
